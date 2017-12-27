@@ -31,7 +31,11 @@ Extra: create a shorten link using *git.io*
 ```bash
 curl -i https://git.io -F "url=https://pharrellwang.github.io/nextjs-boilerplate/" -F "code=pha-next"
 ```
-Visit: <https://git.io/pha-next>
+Visit: <https://git.io/vbdew>
+
+Note: I have specified nothing when creating the git.io link, 
+hence I got a random name of ``vbdew``. If you specify your
+customized name at beginning, you will be able to make it fancier! 
 
 ## The idea behind the example
 
