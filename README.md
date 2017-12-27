@@ -23,6 +23,8 @@ View it to verify whether the deployment is successfull or not:
 Replace 'github-user-name' and 'github-project-name'
 <https://github-user-name.github.io/github-projet-name/>
 
+Example:
+<https://pharrellwang.github.io/nextjs-boilerplate/>
 
 ## The idea behind the example
 
