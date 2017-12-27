@@ -1,5 +1,9 @@
 # Nextjs Boilerplate
 
+## features
+1. [material-ui-next](https://material-ui-next.com/)
+2. [gh-pages](https://pages.github.com/)
+
 ## how to dev
 
 Install dependencies: ``npm install`` or ``yarn``
