@@ -41,11 +41,13 @@ Note: I have specified nothing when creating the git.io link initially,
 hence I got a random name of ``vbdew``. If you specify your
 customized name at beginning, you will be able to make it fancier! 
 
+
 ## The idea behind the example
+*todo*
 
 ## References
 
-[Deploy Nextjs to gh-pages]<https://github.com/thierryc/Next-gh-page-example/>
+1. [Nextjs with material-ui-next](https://github.com/zeit/next.js/tree/canary/examples/with-material-ui-next)
+2. [Deploy nextjs to gh-pages](https://github.com/thierryc/Next-gh-page-example/)
 
-[Nextjs with Material-UI]<https://github.com/zeit/next.js/tree/canary/examples/with-material-ui-next>
 
