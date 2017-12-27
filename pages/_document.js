@@ -22,13 +22,19 @@ class MyDocument extends Document {
             manifest.json provides metadata used when your web app is added to the
             homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
           */}
-          <link rel="manifest" href="/static/manifest.json" />
+          <link rel="manifest" href="/static/manifest.json"/>
+
+          {/* iOS home screen icons */}
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/images/icon-120x120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/images/icon-152x152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/images/icon-167x167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/images/icon-180x180.png"/>
+          <link rel="icon" href="/static/images/favicon.ico"/>
+          <title>Pharrell.zx WANG</title>
+          <meta name="mobile-web-app-capable" content="yes" />
           {/* PWA primary color */}
           <meta name="theme-color" content={this.props.stylesContext.theme.palette.primary[500]} />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-          />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
         </Head>
         <body>
           <Main />
