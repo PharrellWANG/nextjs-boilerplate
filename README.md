@@ -27,6 +27,12 @@ Replace 'github-user-name' and 'github-project-name'
 Example:
 <https://pharrellwang.github.io/nextjs-boilerplate/>
 
+Extra: create a shorten link using *git.io*
+```bash
+curl -i https://git.io -F "url=https://pharrellwang.github.io/nextjs-boilerplate/" -F "code=pha-next"
+```
+Visit: <https://git.io/pha-next>
+
 ## The idea behind the example
 
 ## References
