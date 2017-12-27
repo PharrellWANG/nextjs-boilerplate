@@ -1,17 +1,17 @@
 # Nextjs Boilerplate
 
-## features
+## Features
 1. [material-ui-next](https://material-ui-next.com/)
 2. [gh-pages](https://pages.github.com/)
 
-## how to dev
+## How to dev
 
 Install dependencies: ``npm install`` or ``yarn``
 
 Start the development environment: ``npm run dev`` or ``yarn dev``
 
 
-## how to deploy to GitHub pages
+## How to deploy to GitHub pages
 
 1. ``npm install`` or ``yarn``
 2. ``npm run dev`` or ``yarn dev``
