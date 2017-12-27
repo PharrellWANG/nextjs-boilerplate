@@ -30,6 +30,7 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" sizes="167x167" href="/static/images/icon-167x167.png"/>
           <link rel="apple-touch-icon" sizes="180x180" href="/static/images/icon-180x180.png"/>
           <link rel="icon" href="/static/images/favicon.ico"/>
+
           <title>Pharrell.zx WANG</title>
           <meta name="mobile-web-app-capable" content="yes" />
           {/* PWA primary color */}

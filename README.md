@@ -16,7 +16,8 @@ Edit ```env-config.js``` and replace ```'nextjs-boilerplate'``` by your project 
 Edit ```next.config.js``` and replace ```'nextjs-boilerplate'``` by your project name.
 4. Create repository.
 5. Link it to your github account.
-6. Publish your master branch ``npm run deploy`` or ``yarn run deploy``
+6. add your project name at the front of the public path to static images/favicon
+7. Publish your master branch ``npm run deploy`` or ``yarn run deploy``
 
 View it to verify whether the deployment is successfull or not:
 
