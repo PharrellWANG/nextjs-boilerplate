@@ -10,6 +10,7 @@ import Dialog, {
 import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 import withRoot from '../components/withRoot';
+import Link from 'next/link';
 
 const styles = {
   root: {
@@ -38,6 +39,9 @@ class Index extends React.Component {
   render() {
     return (
       <div className={this.props.classes.root}>
+        <Link href='/about' as={ process.env.BACKEND_URL + '/about'}>
+          <a>About</a>
+        </Link>
         <Dialog open={this.state.open} onClose={this.handleClose}>
           <DialogTitle>Super Secret Password</DialogTitle>
           <DialogContent>

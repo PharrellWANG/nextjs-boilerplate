@@ -1,22 +1,34 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/mui-org/material-ui/tree/v1-beta/examples/nextjs)
-# Next.js example
+# Nextjs Boilerplate
 
-## How to use
+## how to dev
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Install dependencies: ``npm install`` or ``yarn``
 
-```bash
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/v1-beta | tar -xz --strip=2  material-ui-1-beta/examples/nextjs
-cd nextjs
-```
+Start the development environment: ``npm run dev`` or ``yarn dev``
 
-Install it and run:
 
-```bash
-npm install
-npm run dev
-```
+## how to deploy to GitHub pages
+
+1. ``npm install`` or ``yarn``
+2. ``npm run dev`` or ``yarn dev``
+3. Deploy it to github
+Edit ```env-config.js``` and replace ```'nextjs-boilerplate'``` by your project name.
+Edit ```next.config.js``` and replace ```'nextjs-boilerplate'``` by your project name.
+4. Create repository.
+5. Link it to your github account.
+6. Publish your master branch ``npm run deploy`` or ``yarn run deploy``
+
+View it to verify whether the deployment is successfull or not:
+
+Replace 'github-user-name' and 'github-project-name'
+<https://github-user-name.github.io/github-projet-name/>
+
 
 ## The idea behind the example
 
-[Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
+## References
+
+[Deploy Nextjs to gh-pages]<https://github.com/thierryc/Next-gh-page-example/>
+
+[Nextjs with Material-UI]<https://github.com/zeit/next.js/tree/canary/examples/with-material-ui-next>
+
